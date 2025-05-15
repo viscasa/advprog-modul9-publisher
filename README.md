@@ -33,3 +33,16 @@ Dengan pengaturan ini, publisher dan subscriber beroperasi dalam satu sistem kom
 <div align="center">
     <img src="assets/images/running_rabbitmq.jpg" alt="rabbitmq"/>
 </div>
+
+# Sending and processing event.
+
+<div align="center">
+    <img src="assets/images/rabbitmq2.jpg" alt="rabbitmq"/>
+</div>
+<div align="center">
+    <img src="assets/images/publisher.jpg" alt="rabbitmq"/>
+</div>
+<div align="center">
+    <img src="assets/images/subscriber.jpg" alt="rabbitmq"/>
+</div>
+Pada saat message broker atau RabbitMQ berjalan, ketika program Subscriber dan Publisher kita jalankan (cargo run), maka Publisher akan mengirimkan data ke message broker dan Subscriber akan menerima data tersebut. Pada gambar di atas, kita dapat melihat bahwa Publisher mengirimkan data sekali ke message broker dan Subscriber menerimanya.
