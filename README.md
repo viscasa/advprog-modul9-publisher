@@ -27,3 +27,9 @@ Penggunaan URL yang sama, yaitu `"amqp://guest:guest@localhost:5672"`, baik di p
 * Melakukan autentikasi dengan **username dan password default** yaitu `"guest"` untuk keduanya.
 
 Dengan pengaturan ini, publisher dan subscriber beroperasi dalam satu sistem komunikasi yang terhubung—publisher mengirimkan pesan ke antrean, dan subscriber mendengarkan serta memproses pesan dari antrean yang sama. Ini memungkinkan pertukaran data yang real-time dan sinkron antar komponen dalam sistem.
+
+# Running RabbitMQ as message broker.
+
+<div align="center">
+    <img src="assets/images/running_rabbitmq.jpg" alt="rabbitmq"/>
+</div>
