@@ -54,3 +54,16 @@ Pada saat message broker atau RabbitMQ berjalan, ketika program Subscriber dan P
 </div>
 
 Dari gambar, terlihat bahwa message rates akan meningkat ketika Publisher mengirimkan data ke message broker. Jika message rates tinggi, maka message broker akan menerima banyak data dari Publisher.
+
+# Sending and processing event. (Cloud)
+
+<div align="center">
+    <img src="assets/images/rabbitmq2cloud.jpg" alt="rabbitmq"/>
+</div>
+<div align="center">
+    <img src="assets/images/publishercloud.jpg" alt="rabbitmq"/>
+</div>
+<div align="center">
+    <img src="assets/images/subscribercloud.jpg" alt="rabbitmq"/>
+</div>
+Pada saat message broker atau RabbitMQ berjalan, ketika program Subscriber dan Publisher kita jalankan (cargo run), maka Publisher akan mengirimkan data ke message broker dan Subscriber akan menerima data tersebut. Pada gambar di atas, kita dapat melihat bahwa Publisher mengirimkan data sekali ke message broker dan Subscriber menerimanya.
